@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Willow Brook · Wilgenschemer, kruidenthee voor de avond</title>
+  <meta name="description" content="Wilgenschemer van Willow Brook: cafeïnevrije kruidenthee voor je avondritueel. Schrijf je in en kom erbij.">
+
+  <!-- Deelbeeld (Open Graph) -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Willow Brook · Als de schemer valt, zet je water op.">
+  <meta property="og:description" content="Cafeïnevrije kruidenthee voor je avondritueel. Kom erbij.">
+  <meta property="og:image" content="img/og-image.jpg">
+  <meta property="og:locale" content="nl_BE">
+  <meta name="theme-color" content="#1F2A3D">
+
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="img/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <a class="skip" href="#inhoud">Ga naar de inhoud</a>
+
+  <!-- ========== HEADER ========== -->
+  <header class="topbar" id="top">
+    <a class="topbar__logo" href="#top" aria-label="Willow Brook, naar boven">
+      <img src="img/favicon.svg" alt="" width="36" height="36">
+      <span>Willow Brook</span>
+    </a>
+    <nav class="topbar__nav" aria-label="Hoofdmenu">
+      <a href="#verhaal">Verhaal</a>
+      <a href="#ritueel">Ritueel</a>
+      <a href="#smaken">Smaken</a>
+    </nav>
+    <a class="btn btn--klein" href="#inschrijven">Kom erbij</a>
+  </header>
+
+  <main id="inhoud">
+
+    <!-- ========== 1. HERO ========== -->
+    <section class="hero" aria-labelledby="hero-titel">
+      <video class="hero__video" autoplay muted loop playsinline preload="metadata"
+             poster="img/hero-poster.jpg" aria-hidden="true">
+        <source src="video/wb-hero-wilg-meer.mp4" type="video/mp4">
+      </video>
+      <div class="hero__waas"></div>
+
+      <div class="hero__inhoud">
+        <p class="label">Wilgenschemer · cafeïnevrije kruidenthee</p>
+        <h1 id="hero-titel">Als de schemer valt,<br>zet je water op.</h1>
+        <p class="hero__intro">Een vast moment dat je dag afsluit. Jij, een warme kop en verder even niets.</p>
+        <div class="hero__knoppen">
+          <a class="btn" href="#inschrijven">Kom erbij</a>
+          <a class="btn btn--lijn" href="#smaken">Ontdek de smaken</a>
+        </div>
+      </div>
+
+      <button class="hero__pauze" type="button" aria-label="Video pauzeren" data-pauze>
+        <span aria-hidden="true">❙❙</span>
+      </button>
+    </section>
+
+    <!-- ========== 2. MERKVERHAAL ========== -->
+    <section class="verhaal" id="verhaal" aria-labelledby="verhaal-titel">
+      <div class="verhaal__beeld">
+        <video class="sfeervideo" muted loop playsinline preload="none" width="720" height="900"
+               poster="img/verhaal-poster.jpg" aria-label="Een dampende kop thee en een doosje Willow Brook Warme Haard op een houten schijf. Op de achtergrond slaapt iemand onder een paarse deken aan het water.">
+          <source src="video/wb-verhaal-thee.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="verhaal__tekst">
+        <p class="label label--lila">Ons verhaal</p>
+        <h2 id="verhaal-titel">Onder de wilg, aan de beek</h2>
+        <p>Aan de rand van een beek staat een oude wilg. Overdag beweegt alles eromheen, maar 's avonds wordt het stil: het water stroomt trager, de takken hangen rustig over het water.</p>
+        <p>Willow Brook gaat over dat moment. Niet over een probleem oplossen, wel over een vast ritueel dat je dag afsluit. <em>Water opzetten. Een kop vasthouden. Even niets hoeven.</em></p>
+        <p>Wilgenschemer is cafeïnevrije kruidenthee voor wie 's avonds een vaste plek zoekt om tot rust te komen. Elke avond hetzelfde kopje, op hetzelfde moment. Juist die herhaling maakt het van jou.</p>
+        <svg class="golf" viewBox="0 0 120 16" aria-hidden="true"><path d="M2 6c10-6 18 6 29 0s19 6 29 0 19 6 29 0 19 6 29 0M2 13c10-6 18 6 29 0s19 6 29 0 19 6 29 0 19 6 29 0" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+      </div>
+    </section>
+
+    <!-- ========== 3. RITUEEL IN 3 STAPPEN ========== -->
+    <section class="ritueel" id="ritueel" aria-labelledby="ritueel-titel">
+      <div class="sectiekop">
+        <p class="label label--lila">Je avondritueel</p>
+        <h2 id="ritueel-titel">Drie kleine stappen</h2>
+        <p>Geen regels, geen klok. Gewoon iets wat je elke avond opnieuw doet, wanneer jij er klaar voor bent.</p>
+      </div>
+      <ol class="stappen">
+        <li class="stap">
+          <span class="stap__nr" aria-hidden="true">1</span>
+          <h3>Water opzetten</h3>
+          <p>Het geluid van de waterkoker is het teken: de dag mag even blijven liggen.</p>
+        </li>
+        <li class="stap">
+          <span class="stap__nr" aria-hidden="true">2</span>
+          <h3>Een kop vasthouden</h3>
+          <p>Laat het zakje vijf minuten trekken. Warme handen rond een kop, de geur van kruiden.</p>
+        </li>
+        <li class="stap">
+          <span class="stap__nr" aria-hidden="true">3</span>
+          <h3>Even niets hoeven</h3>
+          <p>Geen scherm, geen lijstjes. Jij en een warme kop, verder niets.</p>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ========== BEELDBAND ========== -->
+    <section class="band" aria-label="Sfeerbeeld">
+      <video class="sfeervideo" muted loop playsinline preload="none" width="1280" height="720"
+             poster="img/band-poster.jpg" aria-label="Een vrouw slaapt onder een paarse deken op een matje onder de wilgen, met de volle maan boven het meer. Naast haar dampt een kop thee bij een doosje Willow Brook Warme Haard.">
+        <source src="video/wb-band-slaper.mp4" type="video/mp4">
+      </video>
+      <blockquote class="band__citaat">
+        <p>Elke avond hetzelfde.<br>En dat is net fijn.</p>
+      </blockquote>
+    </section>
+
+    <!-- ========== 4. DE DRIE VARIANTEN ========== -->
+    <section class="smaken" id="smaken" aria-labelledby="smaken-titel">
+      <div class="sectiekop sectiekop--donker">
+        <p class="label">De Wilgenschemer-lijn</p>
+        <h2 id="smaken-titel">Drie smaken voor de avond</h2>
+        <p>Alle drie van nature cafeïnevrij. Twintig zakjes per doosje.</p>
+      </div>
+
+      <div class="kaarten">
+        <article class="kaart" style="--accent: #8F84AE">
+          <img src="img/product-maanweide.jpg" width="720" height="900" loading="lazy"
+               alt="Nachtblauw doosje Willow Brook Wilgenschemer met lila label: Maanweide, kamille, lavendel en vanille.">
+          <div class="kaart__tekst">
+            <h3>Maanweide</h3>
+            <p class="kaart__ingredienten">kamille · lavendel · een vleugje vanille</p>
+            <p>Bloemig, zacht en rond. Voor de avonden waarop je het licht al wat lager zet.</p>
+          </div>
+        </article>
+
+        <article class="kaart" style="--accent: #8E9C88">
+          <img src="img/product-stille-beek.jpg" width="720" height="900" loading="lazy"
+               alt="Nachtblauw doosje Willow Brook Wilgenschemer met lila label: Stille Beek, citroenmelisse, lindebloesem en verveine.">
+          <div class="kaart__tekst">
+            <h3>Stille Beek</h3>
+            <p class="kaart__ingredienten">citroenmelisse · lindebloesem · verveine</p>
+            <p>Fris, licht citrus en groen. Als een wandeling langs het water na een lange dag.</p>
+          </div>
+        </article>
+
+        <article class="kaart" style="--accent: #B8A25E">
+          <img src="img/product-warme-haard.jpg" width="720" height="900" loading="lazy"
+               alt="Nachtblauw doosje Willow Brook Wilgenschemer met lila label: Warme Haard, rooibos, honingbos en kaneel.">
+          <div class="kaart__tekst">
+            <h3>Warme Haard</h3>
+            <p class="kaart__ingredienten">rooibos · honingbos · kaneel</p>
+            <p>Warm, licht zoet en kruidig. Voor koude avonden met een deken over je knieën.</p>
+          </div>
+        </article>
+      </div>
+
+      <p class="smaken__feit">Geen cafeïne. Wel een moment voor jezelf.</p>
+    </section>
+
+    <!-- ========== 5. SIGN-UP ========== -->
+    <section class="inschrijven" id="inschrijven" aria-labelledby="inschrijven-titel">
+      <div class="inschrijven__tekst">
+        <p class="label label--lila">De avondbrief</p>
+        <h2 id="inschrijven-titel">Kom erbij</h2>
+        <p>Schrijf je in en ontvang een paar korte brieven over het ritueel, de drie smaken en het verhaal achter Willow Brook. Rustig, zonder haast, en je schrijft je met één klik weer uit.</p>
+        <ul class="inschrijven__lijst">
+          <li>Het merkverhaal van de wilg aan de beek</li>
+          <li>Drie kleine stappen voor je avondmoment</li>
+          <li>Welke smaak past bij jouw avond?</li>
+        </ul>
+      </div>
+
+      <div class="inschrijven__form">
+        <!--
+          ============================================================
+          MAILERLITE EMBED
+          Plak hieronder de embed-code van MailerLite
+          (Forms > Embedded forms > jouw formulier > HTML-code).
+          Verwijder daarna het voorbeeldformulier (<form id="voorbeeld-form">)
+          en het bijbehorende bedankblok.
+          ============================================================
+        -->
+        <div id="mailerlite-form"></div>
+
+        <!-- Voorbeeldformulier (tijdelijk, tot de MailerLite-code er staat) -->
+        <form id="voorbeeld-form" class="form" novalidate>
+          <div class="veld">
+            <label for="naam">Voornaam</label>
+            <input id="naam" name="name" type="text" autocomplete="given-name" required placeholder="Je voornaam">
+          </div>
+          <div class="veld">
+            <label for="email">E-mailadres</label>
+            <input id="email" name="email" type="email" autocomplete="email" required placeholder="jij@voorbeeld.be">
+          </div>
+          <div class="veld veld--check">
+            <input id="optin" name="optin" type="checkbox" required>
+            <label for="optin">Ja, ik ontvang graag e-mails van Willow Brook. Ik kan me altijd uitschrijven.</label>
+          </div>
+          <p class="form__fout" role="alert" hidden></p>
+          <button class="btn btn--vol" type="submit">Schrijf je in</button>
+          <p class="form__privacy">We gebruiken je gegevens alleen om je deze e-mails te sturen. Lees onze <a href="privacy.html">privacyverklaring</a>.</p>
+        </form>
+
+        <div class="form__bedankt" hidden tabindex="-1">
+          <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M30 8a16 16 0 1 0 10 28A18 18 0 0 1 30 8Z" fill="currentColor"/></svg>
+          <h3>Fijn dat je erbij bent</h3>
+          <p>Kijk even in je mailbox en bevestig je inschrijving. Daarna volgt je eerste avondbrief.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== 6. FOOTER ========== -->
+  <footer class="footer">
+    <div class="footer__logo">
+      <img src="img/favicon.svg" width="64" height="64" alt="">
+      <span class="footer__woordmerk">Willow Brook</span>
+      <span class="footer__tagline">— WILGENSCHEMER —</span>
+    </div>
+    <p class="footer__zin">Als de schemer valt, zet je water op.</p>
+    <nav class="footer__nav" aria-label="Footer">
+      <a href="#verhaal">Verhaal</a>
+      <a href="#ritueel">Ritueel</a>
+      <a href="#smaken">Smaken</a>
+      <a href="#inschrijven">Inschrijven</a>
+      <a href="privacy.html">Privacy</a>
+    </nav>
+    <p class="footer__klein">Willow Brook is een fictief merk, gemaakt voor de eindopdracht Creative Automation (Arteveldehogeschool, 2026). Beelden deels gemaakt met AI.</p>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
