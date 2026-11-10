@@ -136,7 +136,7 @@ a { color: var(--wb-lila); text-underline-offset: 3px; }
   display: grid;
   align-items: center;
   overflow: hidden;
-  background: var(--wb-middernacht) url("../img/hero-poster.jpg") center / cover no-repeat;
+  background: var(--wb-middernacht) url("hero-poster.jpg") center / cover no-repeat;
   color: var(--wb-creme);
 }
 .hero__video {
